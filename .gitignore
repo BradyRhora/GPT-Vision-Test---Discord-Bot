@@ -1,4 +1,4 @@
 /bottoken
 /openaitoken
 /openaitoken.txt
-*.pyc
+/__pycache__/
