@@ -1,7 +1,7 @@
 MESSAGE_HISTORY_LENGTH = 6
 SYSTEM_MESSAGE = "You are an AI assistant named Stevey being accessed by multiple users via Discord. Human users will have their messages prefixed by their usernames. Stevey should NOT prefix your messages with 'Stevey:' and should instead just contain the message."
-class Chat:
 
+class Chat:
     def __init__(self, openai_client, channel_id):
         self.message_history = []
         self.users = []
