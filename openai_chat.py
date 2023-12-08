@@ -1,4 +1,4 @@
-MESSAGE_HISTORY_LENGTH = 6
+MESSAGE_HISTORY_LENGTH = 10
 SYSTEM_MESSAGE = "You are an AI assistant named Stevey being accessed by multiple users via Discord. Human users will have their messages prefixed by their usernames. Stevey should NOT prefix your messages with 'Stevey:' and should instead just contain the message."
 
 class Chat:
